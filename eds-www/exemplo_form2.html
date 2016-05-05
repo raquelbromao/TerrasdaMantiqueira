@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>PHPMailer Upload</title>
+</head>
+<body>
+        <table width="90%" border="0" cellpadding="0" cellspacing="0" >
+  <tr><td align="center" valign="top">&nbsp;</td></tr>
+<tr>
+    <td align="center" valign="top"><form action="sendmail.php" method="post" name="rfqfrm" id="rfqfrm" enctype="multipart/form-data">
+        <table width="500" border="0" cellspacing="0" cellpadding="6">
+          <tr>
+            <td width="150" align="right" valign="middle">* First Name:</td>
+            <td align="left" valign="middle"><input name="name" type="text" id="name" size="25"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">* Last Name: </td>
+            <td align="left" valign="middle"><input name="lastname" type="text" id="lastname" size="25"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">* Email:</td>
+            <td align="left" valign="middle"><input name="email" type="text" id="email" size="30"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">Company Name: </td>
+            <td align="left" valign="middle"><input name="cmname" type="text" id="cmname" size="15"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">Address:</td>
+            <td align="left" valign="middle"><input name="add" type="text" id="add" size="35"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">City:</td>
+            <td align="left" valign="middle"><input name="city" type="text" id="city" size="30"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">State:</td>
+            <td align="left" valign="middle"><table width="300" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="50"><input name="state" type="text" id="state" size="2"></td>
+                  <td width="50" align="right">Zip: &nbsp;&nbsp;&nbsp;</td>
+                  <td width="200"><input name="zip" type="text" id="zip" size="10"></td>
+                </tr>
+              </table></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">Phone:</td>
+            <td align="left" valign="middle"><input name="phone" type="text" id="phone"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">Fax:</td>
+            <td align="left" valign="middle"><input name="fax" type="text" id="fax"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">Attach File1:</td>
+            <td align="left" valign="middle"><input type="file" name="attachFile"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">Attach File2:</td>
+            <td align="left" valign="middle"><input type="file" name="attachFile2"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">Attach File3:</td>
+            <td align="left" valign="middle"><input type="file" name="attachFile3"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="middle">Attach File4:</td>
+            <td align="left" valign="middle"><input type="file" name="attachFile4"></td>
+          </tr>
+          <tr>
+            <td align="right" valign="middle">Attach File5:</td>
+            <td align="left" valign="middle"><input type="file" name="attachFile5"></td>
+          </tr>
+          <tr>
+            <td width="150" align="right" valign="top">* Please describe your project needs: </td>
+            <td align="left" valign="middle"><textarea name="comments" cols="30" rows="7" id="comments"></textarea></td>
+          </tr>
+          <tr>
+            <td align="right" valign="middle">&nbsp;</td>
+            <td align="left" valign="middle"><input type="reset" name="Reset" value="Clear">
+              <input type="submit" name="Submit2" value="Submit"></td>
+          </tr>
+        </table>
+      </form></td>
+  </tr>
+</table>
+</body>
+</html>

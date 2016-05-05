@@ -1,0 +1,223 @@
+/*CSS COMUM DO SITE*/
+
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+	src: url("../fonts/GLCBaskerville.ttf");
+}
+
+/*******************************CSS DAS MEDIDAS PRINCIPAIS DO SITE*/
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 790px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container{
+        max-width: 790px;
+    }
+}
+
+body {
+    margin-top: 10px;
+    font-family: Verdana;
+    font-size: 12px;
+    color: #727E55;   
+}
+
+.container, .container-fluid {
+    background-color: #fFF;   
+}
+
+/*
+*   Existem 2 rows no site:
+*   - header (contendo logo e barra de navegação)
+*   - main (contendo o corpo principal do site e os asides)
+*   - footer (contendo a barra, propaganda e textos)
+*/
+.row {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+[class*="col-"], header, footer, aside, section, div[role="main"] {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #f5f5f5;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86,61,124,.2);
+}
+
+div[role="main"], footer {
+    background-color: #fff;
+    height: auto;
+}
+
+header, .masthead, .img-rolante {
+    margin-bottom: 0;
+}
+
+/*******************************CSS DA BARRA DO LOGO*/
+
+.img-header {
+    margin-bottom: 0;
+    background-image: url("../imagem/barra01.jpg");
+    height: 50px;
+}
+
+.logo {
+    font-family: 'FonteLogo';
+    font-size: 2em;
+    text-decoration: none;
+    text-align: left;
+    margin-left: 15px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    letter-spacing: 0.05em;
+    line-height: 50px;
+}
+
+.logo:hover ,
+.logo:focus ,
+.logo:active {
+    font-size: 2em;
+    text-decoration: none;
+    color:  #f2f2f2;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+
+/*******************************CSS DA BARRA DE NAVEGAÇÃO*/
+
+.nav {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: auto;
+    padding: 0;
+}
+
+.nav .imagem {
+  background-color: #E0D789; 
+  background-image: url("../imagem/Index/b0.gif");
+  height: 30px;
+  padding: 0;
+}
+
+.nav .imagem a {
+  color: #234A1E; 
+  font-size: 13px;
+  font-weight: 700;  
+  padding: 0;
+  line-height: 25px;
+  background: transparent;
+}
+
+.nav .imagem a:hover,
+.nav .imagem a:focus {
+  color: #234A1E; 
+  background: transparent;
+}
+
+.dropdown-menu a {
+    text-align: center;
+}
+
+/*******************************CSS DA IMAGEM ROLANTE*/
+
+.img-rolante {
+    margin: 0;
+    width: 100%;
+}
+
+/*******************************CSS DO SEPARADOR E ICONES*/
+
+.sep {
+    width: 100%;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    padding: 0;
+    color: #B0C088;
+}
+
+.icones a {
+    font-size: 15px;
+    float: right; 
+    margin-right: 10px; 
+    color:#fff;
+}
+
+.icones a:hover {
+    color: #f2f2f2;
+}
+
+/*******************************CSS DO FOOTER*/
+
+footer {
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.img-footer {
+    background-image: url("../imagem/barra02.jpg");
+    height: 50px;
+}
+
+.voltar-footer,
+.voltar-footer:focus,
+.voltar-footer:active,
+.voltar-footer:visited {
+    float: left; 
+    line-height: 40px;
+    margin-left: 10px; 
+    font-size: 20px;
+    color:#fff;
+}
+
+.voltar-footer:hover {
+    color: #f2f2f2;
+}
+
+.linkt1,
+.linkt1:hover,
+.linkt1:active,
+.linkt1:visited,
+.linkt1:focus {
+    font-family: Verdana;
+    font-size: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #829951;
+}
+
+.linkt2,
+.linkt2:hover,
+.linkt2:active,
+.linkt2:visited,
+.linkt2:focus {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #829951;
+}
+
+.link3 {
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #EA680C;
+}
+
+.link3:hover {
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 10px;
+    font-weight: 700;
+    color: #EA680C;
+}

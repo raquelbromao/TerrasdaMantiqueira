@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/*******************************DIVISÕES*/
+
+.bloco1 {
+    height: auto;
+    width: 100%;
+    margin:auto;
+}
+
+/*******************************CSS DOS TEXTOS*/
+
+.strong {
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 700;
+    color: #829951;
+}
+
+quote {
+    font-style: italic;
+    color: #768B49;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    background-image: url("../imagem/barra_h1.png");
+    text-align: left;
+    font-family: 'FonteLogo';
+    font-size: 20px;
+    color:#fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 700;
+    color: #EA680C;
+    text-align: left;
+}
+
+h3 {
+    font-family: Verdana;
+    font-size: 21px;
+    font-weight: 700;
+    color: #829951;
+    text-align: center;
+}
+
+.bloco1 p {
+    text-align: justify;
+}
+
+/*******************************CSS DOS FORMULÁRIOS*/
+
+form {
+    margin: 0;
+    border: 1px solid #CCC;
+}
+
+.item-form {
+    display: block;
+    margin: 0;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+}

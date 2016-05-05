@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/*CSS DAS BARRAS DE DESTAQUE/NOVIDADE*/
+
+.previsao {
+    margin-bottom: 16px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 3px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    background-image: url("../imagem/barra_h1.png");
+    text-align: left;
+    font-family: 'FonteLogo';
+    font-size: 20px;
+    color:#fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    color: #EA680C;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+/*******************************CSS DA TABELA MENOR DE DESCRIÇÃO CENTRAL DO SITE*/
+
+.titulo {
+    padding-bottom: 2px;
+    font-family: Arial Black;
+    font-size: 10px;
+    color: #829951;
+    text-transform: uppercase;
+}
+
+.mini-img {
+    height: 80px;
+    width: 100px;
+}
+
+.mini-info {
+    padding-left: 4px;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 700;
+    color: #829951;    
+}
+
+.mini-descricao,
+.mini-descricao a,
+.mini-descricao a:hover,
+.mini-descricao a:focus,
+.mini-descricao a:active {
+    padding-left: 4px;
+    font-family: Verdana;
+    font-size: 11px;
+    color: #727E55;   
+    text-align: left;
+    text-decoration: none;
+}
+
+.btt-mais {
+    padding-left: 4px;
+}
+
+.btt-mais img {
+    border: none;
+}
+
+/*******************************CSS DA TABELA DE IMOVEIS LATERAIS DO SITE*/
+
+.tab-lateral,
+.tab-lateral:hover,
+.tab-lateral:focus,
+.tab-lateral:active {
+    text-decoration: none;
+}
+
+.imovel-lateral {
+    height: auto;
+    width: 117px;
+    margin-bottom: 16px;
+    border: 1px solid #CED8B4;
+}
+
+.imovel-lateral img{
+    height: 97px;
+    width: 117px;
+    border: none;
+}
+
+.lat-info {
+    background-color: #CED8B4;
+}
+
+.lat-info td {
+    padding: 2px;
+    font-family: Verdana;
+    font-size: 9px;
+    font-weight: 700;
+    color: #667940;
+    text-align: center;
+}

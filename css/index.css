@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteLogo';
+	src: url("../fonts/GLCBaskerville.ttf");
+}
+
+.container, .container-fluid {
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #fFF;
+}
+
+.row {
+    margin-bottom: 10px;
+}
+
+[class*="col-"], header, footer, aside, section, div[role="main"] {     
+    padding-top: 2px;
+    padding-bottom: 10px;
+    background-color: #f5f5f5;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid #ddd;
+    border: 1px solid rgba(86,61,124,.2);
+    text-align: center;
+}
+
+div[role="main"] {
+    background-color: #fff;
+}
+
+div[role="main"], aside {
+    height: 600px;
+}
+
+
+/*CSS DA BARRA DE NAVEGAÇÃO*/
+
+.navbar-custom {
+    background-image: url("../imagem/barra01.jpg");
+    background: url('../imagem/barra01.jpg');
+    color:#fff;
+    border-radius:0;
+  }
+
+.navbar-brand {
+    font-family: 'FonteLogo';
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #beebc0;
+}
+
+.navbar-default .navbar-text {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #beebc0;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #147b19;
+  /*background-color: #fff;*/
+  opacity: 0.4;
+  filter: alpha(opacity=30);
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #147b19;
+  /*background-color: #fff;*/
+  opacity: 0.4;
+  filter: alpha(opacity=30);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #fff;
+}
+
+.navbar-default .navbar-link {
+  color: #fff;
+}
+
+.navbar-default .navbar-link:hover {
+  color: #beebc0;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #beebc0;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #beebc0;
+    opacity: 0.4;
+    filter: alpha(opacity=30);  
+  }
+}
+
+/*CSS DAS BARRAS DE DESTAQUE/NOVIDADE*/
+
+h1 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    background-image: url("../imagem/barra_h1.png");
+    text-align: left;
+    font-family: 'FonteLogo';
+    font-size: 15px;
+    font-weight: 500;
+    color:#fff;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+}
+
+.principal {
+    font-size: 20px;
+}

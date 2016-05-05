@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+/*******************************CSS DOS TEXTOS*/
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    background-image: url("../imagem/barra_h1.png");
+    font-family: 'FonteLogo';
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,.4);
+    text-align: left;
+    color:#fff;
+}
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+    padding: 0;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    color: #829951;
+}
+
+h3, 
+h3 a,
+h3 a:active,
+h3 a:visited,
+h3 a:hover,
+h3 a:focus {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 0;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #829951;
+}
+
+/*******************************CSS DAS TABELAS*/
+
+.estado {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.estado td {
+    width: 220px;
+}
+
+.tit,
+.tit:hover,
+.tit:focus,
+.tit:visited,
+.tit:active {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #829951;
+}
+
+.cidades,
+.cidades:hover,
+.cidades:focus,
+.cidades:visited,
+.cidades:active {
+    margin-left: 30px;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #829951; 
+}
+
+/*******************************CSS DA TABELA GRANDE DE DESCRIÇÃO*/
+
+.anuncio {
+    width: 100%;
+    margin-left: 5px;
+    padding: 0;
+    border-spacing: 0;
+}
+
+.anuncio img {
+    border: 1px solid #B0C088;
+}
+
+.img-principal {
+    height: 140px;
+    width: 170px;
+}
+
+.info,
+.info a,
+.info a:hover,
+.info a:active,
+.info a:focus,
+.info a:visited {
+    padding-left: 10px;
+    font-family: Verdana;
+	color: #829951;
+	font-size: 13px;
+   	font-weight: 700;
+    text-align: left;
+    text-decoration: none;
+}
+
+.info1 {
+    padding-bottom: 3px;
+}
+
+.info2 {
+    padding-top: 3px;
+}
+
+.descricao {
+    padding-left: 10px;
+    padding-right: 5px;
+    height: auto;
+    font-family: Verdana;
+    font-size: 11px;
+    color: #697052;
+    text-align: justify;
+}
+
